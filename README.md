@@ -1,7 +1,5 @@
 # Dragon-Slayer
-JavaScript Game
-
-A game using JavaScript only. 
+# A JavaScript game.
 
 var slaying = true;
 var youHit = Math.floor(Math.random() * 2);
