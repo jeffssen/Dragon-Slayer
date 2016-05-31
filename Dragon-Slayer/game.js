@@ -5,11 +5,11 @@ var totalDamage = 4;
 
 while(slaying) {
     if(youHit === 1) {
-        console.log("You have hit the Dragon!")
+        console.log("Yes, that was a direct hit!")
         totalDamage += damageThisRound;
 
         if(totalDamage >= 4) {
-           console.log("You have slain the Dragon! You have won!");
+           console.log("You have defeated the Dragon! Well done!");
            slaying = false;
         }
         else {
@@ -17,7 +17,7 @@ while(slaying) {
         }
     }
     else {
-        console.log("The Dragon has slain you!")
+        console.log("Oh no! The Dragon has burned you!")
     }
     slaying = false;
 }
